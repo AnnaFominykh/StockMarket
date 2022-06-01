@@ -3,7 +3,7 @@ public class Stock {
     private String type;
     private String company;
     private int price;
-
+    private int exchange;
     public String getName() {
         return name;
     }
@@ -36,5 +36,11 @@ public class Stock {
         this.price = price;
     }
 
+    public int getExchange() {
+        return exchange;
+    }
 
+    public void setExchange(int Exchange) {
+        this.exchange = Exchange;
+    }
 }
